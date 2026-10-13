@@ -1,6 +1,6 @@
-# CorriLee Grant Ranker
+# GrantFinder
 
-CorriLee Grant Ranker is a desktop app that searches public grant websites and
+GrantFinder is a desktop app that searches public grant websites and
 puts the most relevant opportunities at the top of an Excel or CSV report. It is set
 up for The CorriLee Foundation's regional documentary screenings and community
 education work, with Australian opportunities and NSW sources prioritised.
@@ -27,17 +27,17 @@ Mac**, and look for **Chip** or **Processor**.
 ### Windows
 
 Keep the complete extracted folder together, then open
-**CorriLee Grant Ranker.exe**. The app does not need to be installed.
+**GrantFinder.exe**. The app does not need to be installed.
 
 ### Mac
 
-Open **CorriLee Grant Ranker.app**. You may move it into your Applications
+Open **GrantFinder.app**. You may move it into your Applications
 folder first.
 
 ### Linux
 
-Open the extracted **CorriLee Grant Ranker** folder, then run the
-**CorriLee Grant Ranker** file inside it. If your file manager asks what to do,
+Open the extracted **GrantFinder** folder, then run the
+**GrantFinder** file inside it. If your file manager asks what to do,
 choose **Run** or **Execute**. The app does not need to be installed.
 
 ## If Windows or macOS blocks the app
@@ -51,21 +51,21 @@ or Gatekeeper.
 ### Windows security warning
 
 1. Extract the entire ZIP first and keep all files in the extracted folder together.
-2. Open **CorriLee Grant Ranker.exe**.
+2. Open **GrantFinder.exe**.
 3. If **Windows protected your PC** appears, select **More info**, confirm that the
-   app name is **CorriLee Grant Ranker**, then select **Run anyway**.
+   app name is **GrantFinder**, then select **Run anyway**.
 4. If **Run anyway** is unavailable, right-click the `.exe`, select **Properties**,
    tick **Unblock** on the **General** tab if that option appears, select **Apply**,
    and try opening the app again.
 
 ### macOS security warning
 
-1. Extract the ZIP, then move **CorriLee Grant Ranker.app** to **Applications**.
+1. Extract the ZIP, then move **GrantFinder.app** to **Applications**.
 2. In Finder, Control-click the app, choose **Open**, then choose **Open** in the
    warning. macOS saves this exception for the app.
 3. If there is no **Open** button, try opening the app once. Then go to **System
    Settings > Privacy & Security**, scroll to **Security**, select **Open Anyway**
-   for CorriLee Grant Ranker, and authenticate when prompted.
+   for GrantFinder, and authenticate when prompted.
 
 On a work- or school-managed computer, these options may be locked by policy. Ask
 your administrator or maintainer for an approved signed or notarised build instead
@@ -74,7 +74,7 @@ of disabling the computer's security features.
 ## Find and save grants
 
 1. Make sure the computer is connected to the internet.
-2. Open CorriLee Grant Ranker.
+2. Open GrantFinder.
 3. To change the search list, select **Manage websites**. You can switch built-in
    websites on or off, edit them, or add your own without editing files or rebuilding
    the app. Select **Done** when the displayed list is ready.

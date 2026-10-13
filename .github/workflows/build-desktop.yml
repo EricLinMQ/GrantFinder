@@ -39,7 +39,7 @@ jobs:
         run: python build.py
       - uses: actions/upload-artifact@v4
         with:
-          name: CorriLee-${{ matrix.label }}
+          name: GrantFinder-${{ matrix.label }}
           path: downloads/
           if-no-files-found: error
           retention-days: 30
@@ -65,6 +65,6 @@ jobs:
           gh release create "$tag" assets/* \
             --repo "$GITHUB_REPOSITORY" \
             --target "$GITHUB_SHA" \
-            --title "CorriLee Grant Ranker build ${GITHUB_RUN_NUMBER}" \
+            --title "GrantFinder build ${GITHUB_RUN_NUMBER}" \
             --notes "Ready-to-use Windows, Linux, and Mac downloads. Extract the ZIP for your computer, then follow START-HERE.txt. The Windows and Mac builds are unsigned, and the Mac builds are not Apple-notarised." \
             --latest

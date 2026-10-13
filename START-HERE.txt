@@ -1,10 +1,10 @@
-CORRILEE GRANT RANKER
+GRANTFINDER
 
 1. Download the app for your computer and extract the ZIP.
-   Windows: keep the whole extracted folder together, then open CorriLee Grant Ranker.exe.
-   Mac: open CorriLee Grant Ranker.app. You can move it into Applications.
+   Windows: keep the whole extracted folder together, then open GrantFinder.exe.
+   Mac: open GrantFinder.app. You can move it into Applications.
    Mac Apple Silicon is for M-series chips; Mac Intel is for Intel processors.
-   Linux: keep the extracted folder together, then run the CorriLee Grant Ranker file inside it.
+   Linux: keep the extracted folder together, then run the GrantFinder file inside it.
 2. Optional: click Manage websites to switch sources on or off, edit them, or add
    another public grant website. These choices are saved on this computer.
 3. Click Search grants. Keep the app open and connected to the internet.

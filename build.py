@@ -7,7 +7,7 @@ import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parent
-NAME = 'CorriLee Grant Ranker'
+NAME = 'GrantFinder'
 
 def main():
     subprocess.run([sys.executable, '-m', 'PyInstaller', '--noconfirm', '--clean',
@@ -29,7 +29,7 @@ def main():
     if sys.platform == 'darwin':
         app = dist / f'{NAME}.app'
         subprocess.run([str(app / 'Contents/MacOS' / NAME), '--self-test', str(output / 'smoke-test.json')], check=True, timeout=90)
-        target = output / f'CorriLee-Grant-Ranker-{label}.zip'
+        target = output / f'GrantFinder-{label}.zip'
         subprocess.run(['ditto', '-c', '-k', '--sequesterRsrc', '--keepParent', str(app), str(target)], check=True)
     else:
         app = dist / NAME
@@ -39,7 +39,7 @@ def main():
             command = ['xvfb-run', '-a', *command]
         subprocess.run(command, check=True, timeout=90)
         shutil.copy2(ROOT / 'START-HERE.txt', app / 'START-HERE.txt')
-        target = Path(shutil.make_archive(str(output / f'CorriLee-Grant-Ranker-{label}'), 'zip', dist, NAME))
+        target = Path(shutil.make_archive(str(output / f'GrantFinder-{label}'), 'zip', dist, NAME))
     (output / (target.name + '.sha256')).write_text(hashlib.sha256(target.read_bytes()).hexdigest() + '  ' + target.name + '\n')
     shutil.copy2(ROOT / 'START-HERE.txt', output / 'START-HERE.txt')
     print(target)

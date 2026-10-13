@@ -1,4 +1,4 @@
-"""CorriLee desktop UI. Network and workbook work run outside the UI thread."""
+"""GrantFinder desktop UI. Network and workbook work run outside the UI thread."""
 from __future__ import annotations
 import concurrent.futures
 import datetime as dt
@@ -14,7 +14,7 @@ import webbrowser
 import grant_finder as grants
 from source_settings import SourceStore, validate_source
 
-APP_NAME = 'CorriLee Grant Ranker'
+APP_NAME = 'GrantFinder'
 
 # The exact solid banner colour supplied by the client, plus restrained neutral
 # and status colours. Keeping the palette here makes every window consistent.
